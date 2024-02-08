@@ -1,0 +1,42 @@
+header {
+    grid-column: 1 / -1; /* Ocupa todas las columnas disponibles */
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cbd5df; /* Color de fondo de la barra de menú */
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .menu-button {
+    background-color: #7badce;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: .5%;
+  }
+  
+  .menu-button:hover {
+    background-color: #539ac9;
+  }
+  
+  .menu-button-cs {
+    background-color: #ff7f4c;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: .5%;
+    margin-left: 8px; /* Añade espacio entre los botones */
+  }
+  
+  .menu-button-cs:hover {
+    background-color: #e46431;
+  }
